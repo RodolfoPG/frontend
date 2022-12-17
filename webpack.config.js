@@ -11,7 +11,7 @@ module.exports = {
     port: 8080,
     contentBase: './public'
   },
-  resolver: {
+  resolve: {
     extensions: ['', '.js', '.jsx'],
     alias: {
       modules: __dirname + '/node_modules'
